@@ -21,9 +21,9 @@ const BreadcrumbsWrapper = (props) => {
 
 
 BreadcrumbsWrapper.defaultProps = {
-  WrapperComponent: (props) => <ol className="breadcrumb" >{props.children}</ol>,
-  ActiveLinkComponent: (props) => <li className="breadcrumb-item active" >{props.children}</li>,
-  LinkComponent: (props) => <li className="breadcrumb-item">{props.children}</li>,
+  WrapperComponent: (props) => <ol style={{color:'white'}} >{props.children}</ol>,
+  ActiveLinkComponent: (props) => <li style={{color:'white'}} >{props.children}</li>,
+  LinkComponent: (props) => <li style={{color:'white'}}>{props.children}</li>,
   rootName:''
 };
 
